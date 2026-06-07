@@ -126,4 +126,5 @@ app.get('/stream/movie/:id.json', (req, res) => {
     }
 });
 
+// تصدير التطبيق مباشرة ليتوافق مع Vercel Serverless بالكامل
 module.exports = app;
