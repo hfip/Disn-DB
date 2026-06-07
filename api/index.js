@@ -111,7 +111,6 @@ app.get('/stream/movie/:id.json', (req, res) => {
     
     if (MOVIES_DATABASE[id]) {
         const movie = MOVIES_DATABASE[id];
-        // تشفير اسم الملف برمجياً لمنع حدوث مشاكل في المسافات أو الرموز داخل الرابط
         const directStreamUrl = `${ARCHIVE_BASE_URL}${encodeURIComponent(movie.filename)}`;
         
         res.json({
