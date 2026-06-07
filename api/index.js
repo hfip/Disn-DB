@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 
-// إعداد تمكين الـ CORS بشكل كامل لضمان اتصال تطبيق ستريمو بدون مشاكل
+// تمكين الـ CORS لضمان اتصال تطبيق ستريمو بدون مشاكل بالخوادم
 app.use((req, res, next) => {
     res.setHeader('Access-Control-Allow-Origin', '*');
     res.setHeader('Access-Control-Allow-Headers', '*');
