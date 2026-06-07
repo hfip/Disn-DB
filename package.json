@@ -1,0 +1,9 @@
+{
+  "name": "stremio-disney-torrent-addon",
+  "version": "1.0.0",
+  "description": "إضافة ديزني المدبلجة عبر التورنت والأرشيف",
+  "main": "api/index.js",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
